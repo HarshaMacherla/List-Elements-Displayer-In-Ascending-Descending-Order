@@ -29,8 +29,8 @@ function App() {
       <Button onClick={changeTitleHandler}>Change List Title</Button>
       <Button onClick={changeOrderHandler}>
         {showInDescending
-          ? "Show in Descending Order"
-          : "Show in Ascending Order"}
+          ? "Show in Ascending Order"
+          : "Show in Descending Order"}
       </Button>
     </div>
   );
